@@ -1,0 +1,86 @@
+
+.newsSection {
+    width: 100%;
+    height: 800px;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  .newsTitle{
+    display: flex;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin:80px 60px;
+  }
+  
+  .newsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .newsCard {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  .newsCard:hover{
+    transform: scale(1.1); 
+    cursor: pointer;
+  }
+  
+  .newsImage {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .date {
+    font-size: 14px;
+    color: #888;
+    margin-top: 10px;
+  }
+  
+  .newsTitle2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #333;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .allNews {
+    margin-left: 900px;
+    margin-top: 70px;
+  
+  }
+  
+  .allNews a {
+    font-size: 16px;
+    color: #5a5af4;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+   
+ button{
+    margin: 10px;
+    gap: 40px;
+    background-color:transparent;
+    border: none;
+}
+  
+  .allNews a:hover {
+    text-decoration: underline;
+  }
