@@ -1,7 +1,7 @@
 "use client"
 
 
-import './Home.css';
+import './home.css';
 import Image from "next/image";
 
 
