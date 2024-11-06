@@ -149,7 +149,7 @@ const Zapros = () => {
 
                         <div className="send">
                         <h2>O КОМПАНИ </h2>
-                            <button><Image src="/section-image/right-icon2.png" width={24} height={24} color='white' /></button>
+                            <button><Image src="/section-image/right-icon1.png" width={24} height={24} color='white' /></button>
   
                         </div>
 
